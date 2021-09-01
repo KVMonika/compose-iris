@@ -1,6 +1,6 @@
 # Docker Demo/Assignment
 
-https://github.com/PGCSEDS-IIITH/compose-iris contains code which demonstrates docker and docker-compose using the IRIS dataset (https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html)
+https://github.com/KVMonika/compose-iris contains code which demonstrates docker and docker-compose using the Cancer dataset (https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
 
 
 ## Pre-requisites

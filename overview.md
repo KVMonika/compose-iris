@@ -9,7 +9,7 @@
 
 
 ## Dataset
-IRIS Flower Predicting dataset (tentative)
+Cancer predicting Predicting dataset (tentative)
 
 ## Microservices
 

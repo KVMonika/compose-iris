@@ -52,11 +52,11 @@ def ping():
     return {"ping": "pong"}
 
 
-@app.post("/predict_flower", response_model=QueryOut, status_code=200)
+@app.post("/predict_cancer", response_model=QueryOut, status_code=200)
 # Route to do the prediction using the ML model defined.
 # Payload: QueryIn containing the parameters
-# Response: QueryOut containing the flower_class predicted (200)
-def predict_flower(query_data: QueryIn):
+# Response: QueryOut containing the cancer_class predicted (200)
+def predict_cancer(query_data: QueryIn):
     output = {"cancer_class": predict(query_data)}
     return output
 

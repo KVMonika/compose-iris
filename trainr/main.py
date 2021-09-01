@@ -60,7 +60,7 @@ def ping():
 
 @app.post("/train", status_code=200)
 # Route to further train the model based on user input in form of feedback loop
-# Payload: FeedbackIn containing the parameters and correct flower class
+# Payload: FeedbackIn containing the parameters and correct cancer class
 # Response: Dict with detail confirming success (200)
 def train(data: List[TrainIn]):
     train_model(data)

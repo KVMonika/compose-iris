@@ -10,12 +10,6 @@ r_classes = {y: x for x, y in classes.items()}
 def process_data(data):
     processed = [
         {
-            "sepal_length": d.sepal_length,
-            "sepal_width": d.sepal_length,
-            "petal_length": d.petal_length,
-            "petal_width": d.petal_width,
-            "flower_class": d.flower_class,
-
             "mean_radius": d.mean_radius,
             "mean_texture": d.mean_texture,
             "mean_perimeter": d.mean_perimeter,
